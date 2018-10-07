@@ -63,6 +63,7 @@ nav ul li a {
 main {
 	background-image: url(img/bg_body.svg);
 	background-color: #444444;
+
 }
 
 
@@ -72,6 +73,11 @@ main {
 
 /* =========================================  Début Section  Slide====================================================== */
 
+
+section {
+	width:80%;
+	margin:0 auto;
+}
 
 .slide {
 	padding-top: 1px;
@@ -92,7 +98,6 @@ main {
 }
 
 .slide img {
-	width:80%;
 	display:block;
 	margin: 0 auto;
 	border:solid 10px white;

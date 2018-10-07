@@ -4,9 +4,20 @@
 	<meta charset="UTF-8">
 	<title>Projet Wolfgang</title>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="woocommerce-FlexSlider-53570ee/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+	</script>
+
+	<link rel="stylesheet" href="woocommerce-FlexSlider-53570ee/flexslider.css" type="text/css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
+
+	
 </head>
 <body>
 
@@ -34,8 +45,24 @@
 		<section class="slide">
 			
 			<h1>Devenez le mozart de la moto avec Wolf'<span>Gang</span></h1>
+			
 
-			<img src="img/slider/1.jpg" alt="image slider">
+			<div class="flexslider">
+				  
+				 	<ul class="slides">
+					    <li>
+					      <img src="img/slider/1.jpg" alt="image 1" />
+					    </li>
+					    <li>
+					      <img src="img/slider/2.jpg" alt="image 2" />
+					    </li>
+					    <li>
+					      <img src="img/slider/3.jpg" alt="image 3" />
+					    </li>
+					</ul>
+			
+			</div>
+
 		</section>
 
 		<!-- 2= Fin section slide -->
