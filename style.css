@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+@font-face {
+	font-family: "Bodega Sans";
+	src:url(fonts/BodegaSans_Black.ttf);
+}
+
+
+header {
+	height:175px;
+	background: linear-gradient(135deg, #ffffff 0%,#ffffff 50%,#0a0e0a 50%,#0a0809 100%);
+	
+}
+
+header img {
+	display:block;
+	margin-left:50px;
+}
+
+nav {
+	display:inline-block;
+	vertical-align: top;
+	position:absolute;
+	top:0;
+	right:0;
+	width:30%;
+	margin-bottom: 30px;
+
+}
+
+nav ul {
+	padding-left: 0px;
+
+
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: "Bodega Sans";
+	font-size: 2.5rem;
+	color:white;
+}
