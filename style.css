@@ -13,6 +13,11 @@ body {
 	src:url(fonts/BodegaSans_Black.ttf);
 }
 
+@font-face {
+	font-family: "fontawesome";
+	src:url(fonts/fontawesome-webfont.ttf);
+}
+
 /* ========================================= Début Header====================================================== */
 
 header {
@@ -104,3 +109,89 @@ section {
 }
 
 /* =========================================  Fin Section  Slide====================================================== */
+
+
+
+/* =========================================  Début Section  Découverte====================================================== */
+
+
+.decouverte {
+	margin:0 auto;
+
+	
+}
+
+.decouverte h2 {
+
+	font-family: "Bodega Sans";
+	font-size: 3rem;
+	text-transform: uppercase;
+	padding-left:20px;
+
+}
+
+.decouverte h2 span {
+	color: #ff9d00;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+	
+
+}
+
+article {
+	width:22%;
+	display:inline-block;
+	background-color: white;
+	text-align: center;
+	height:auto;
+	padding-bottom: 20px;
+	margin:0 auto;
+
+}
+
+article h3{
+		color: #ff9d00;
+		font-family: "Bodega Sans";
+		font-size: 2.5rem;
+		text-align: center;
+		margin-top:20px;
+}
+
+article hr {
+
+	background-color: #ff9d00;
+	width:80%;
+	height:2px;
+	border:none;
+}
+
+article img {
+	max-width:100%;
+}
+
+article p {
+	text-align: center;
+	margin:0 auto;
+	font-family: Arial, sans-serif;
+	margin-bottom: 40px;
+
+}
+
+article a {
+
+	text-decoration: none;
+	padding: 10px 50px;
+	background-color: #ff9d00;
+	font-family: Arial, sans-serif;
+	text-align: center; 
+	color:white;
+	letter-spacing: 1px;
+}
+/* =========================================  Fin Section  Découverte====================================================== */
