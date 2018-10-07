@@ -13,6 +13,7 @@ body {
 	src:url(fonts/BodegaSans_Black.ttf);
 }
 
+/* ========================================= Début Header====================================================== */
 
 header {
 	height:175px;
@@ -52,3 +53,49 @@ nav ul li a {
 	font-size: 2.5rem;
 	color:white;
 }
+
+
+/* ========================================= Fin  Header====================================================== */
+
+
+/* =================================================style général main *===================================*/
+
+main {
+	background-image: url(img/bg_body.svg);
+	background-color: #444444;
+}
+
+
+/* ================================================= Fin style général main *===================================/
+
+
+
+/* =========================================  Début Section  Slide====================================================== */
+
+
+.slide {
+	padding-top: 1px;
+	/* annulation de la fustion des marges */
+}
+
+.slide h1 {
+
+	font-family: "Bodega Sans";
+	font-size: 4rem;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+.slide h1 span {
+	color: #ff9d00;
+}
+
+.slide img {
+	width:80%;
+	display:block;
+	margin: 0 auto;
+	border:solid 10px white;
+}
+
+/* =========================================  Fin Section  Slide====================================================== */
