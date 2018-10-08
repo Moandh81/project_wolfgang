@@ -207,6 +207,7 @@ article a {
 -moz-box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 34px 0px rgba(0,0,0,0.75);
 padding-bottom: 30px;
+margin-top:10px;
 
 }
 
@@ -248,6 +249,10 @@ padding-bottom: 30px;
 	right:0;
 	top:0;
 	
+}
+
+.video2 {
+	display:none;
 }
 
 .container ul {
@@ -332,3 +337,75 @@ footer ul li a {
 
 }
 /* =========================================  Fin Footer====================================================== */
+
+
+/* 
+========================================== Style tablette ============================================= */
+
+
+@media screen and (min-width: 740px ) and (max-width: 1280px ) {
+
+
+.flex-container {
+
+	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+
+}
+
+article {
+	display:block;
+	width:100%;
+	margin-bottom: 20px;
+}
+
+
+.details h2 {
+	padding-top: 15px;
+}
+
+.container ul {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+	width:100%;
+
+}
+
+
+
+.container p {
+	display:block;
+	width: 100%;
+	padding: 10px;
+	line-height: 1.5em;
+	text-align: center;	
+
+
+
+}
+
+.container ul li  {
+	display: block;
+	text-align: center;
+
+}
+
+video {
+	display:none;
+}
+
+.video2 {
+	display:block;
+	width:100%;
+}
+
+}
